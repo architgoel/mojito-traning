@@ -1,0 +1,58 @@
+[
+    {
+        "settings": [ "master" ],
+        "appPort": "8666",
+        "specs": {
+            "mainpage" : {
+                "type" : "HTMLFrameMojit",
+                "config" : {
+                    "deploy" : true,
+                    "child" : {
+                        "type" : "defaultLayout",
+                        "config" : {
+                            "children" : {
+                                "header" : {
+                                    "type" : "header"
+                                },
+                                "body" : {
+                                    "type" : "mainpage"
+                                },
+                                "footer" : {
+                                    "type" : "footer"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "aboutus" : {
+                "type" : "HTMLFrameMojit",
+                "config" : {
+                    "deploy" : true,
+                    "child" : {
+                        "type" : "defaultLayout",
+                        "config" : {
+                            "children" : {
+                                "header" : {
+                                    "type" : "header"
+                                },
+                                "body" : {
+                                    "type" : "aboutusPage"
+                                },
+                                "footer" : {
+                                    "type" : "footer"
+                                }
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+    },
+    {
+        "settings": [ "environment:development" ],
+        "staticHandling": {
+            "forceUpdate": true
+        }
+    }
+]

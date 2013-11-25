@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites><testsuite name="mainpageModel user tests" tests="1" failures="0" time="0.005"><testcase name="test mojit model" time="0.001"></testcase></testsuite><testsuite name="mainpage user tests" tests="1" failures="1" time="0.004"><testcase name="test mojit" time="0.001"><failure message="Values should be the same.
+Expected: ./index.css (string)
+Actual: undefined (undefined)"><![CDATA[Values should be the same.
+Expected: ./index.css (string)
+Actual: undefined (undefined)]]></failure></testcase></testsuite><testsuite name="headerModel user tests" tests="1" failures="0" time="0.002"><testcase name="test mojit model" time="0"></testcase></testsuite><testsuite name="header user tests" tests="1" failures="1" time="0.005"><testcase name="test mojit" time="0.001"><failure message="Values should be the same.
+Expected: ./index.css (string)
+Actual: undefined (undefined)"><![CDATA[Values should be the same.
+Expected: ./index.css (string)
+Actual: undefined (undefined)]]></failure></testcase></testsuite><testsuite name="footerModel user tests" tests="1" failures="0" time="0.004"><testcase name="test mojit model" time="0.001"></testcase></testsuite><testsuite name="footer user tests" tests="1" failures="1" time="0.004"><testcase name="test mojit" time="0.001"><failure message="Values should be the same.
+Expected: ./index.css (string)
+Actual: undefined (undefined)"><![CDATA[Values should be the same.
+Expected: ./index.css (string)
+Actual: undefined (undefined)]]></failure></testcase></testsuite><testsuite name="defaultLayoutModel user tests" tests="1" failures="0" time="0.004"><testcase name="test mojit model" time="0.001"></testcase></testsuite><testsuite name="defaultLayout user tests" tests="1" failures="1" time="0.014"><testcase name="test mojit" time="0.005"><failure message="Unexpected error: Cannot call method &apos;done&apos; of undefined"><![CDATA[Unexpected error: Cannot call method 'done' of undefined]]></failure></testcase></testsuite><testsuite name="aboutusPageModel user tests" tests="1" failures="0" time="0.004"><testcase name="test mojit model" time="0.001"></testcase></testsuite><testsuite name="aboutusPage user tests" tests="1" failures="0" time="0.004"><testcase name="test mojit" time="0.001"></testcase></testsuite></testsuites>

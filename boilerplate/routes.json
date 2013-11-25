@@ -1,0 +1,13 @@
+[{
+    "settings": [ "master" ],
+    "mainpage" : {
+    	"verbs" : ["get"],
+    	"path" : "/",
+    	"call" : "mainpage.index"
+    },
+    "aboutus" : {
+    	"verbs" : ["get"],
+    	"path" : "/aboutus",
+    	"call" : "aboutus.index"    	
+    }
+}]
